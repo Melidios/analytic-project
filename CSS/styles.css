@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  border: 0.09em solid #C9D6E1;
+  border-radius: 8px;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+
+/* For desktop: */
+.bigbox {
+  padding: 0 20px;
+}
+
+/*header*/
+h1 {
+  font-size: 3em;
+}
+header {
+  height: 6em;
+}
+hr {
+  color: #C9D6E1;
+}
+  .head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rt {
+      padding-top: 2.5em;
+}
+.return {
+  border-radius: 8px;
+  background-color: #5087EC;
+  color: white;
+  text-align: center;
+  height: 2em;
+  width: 10em;
+  border-style: none;
+  font-size: 20px;
+}
+/* section 1 */
+ .date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.btt {
+  padding-right: 1em;
+  display: flex;
+  flex-direction: row;
+}
+.date{
+  height: 3em;
+}
+.week, .month {
+  height: 2.5em;
+  width: 6em;
+}
+.month {
+  background-color: #939393;
+  border-style: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.drop {
+  height: 2.3em;
+  width: 22em;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: #F9F9F9;
+  border: 2 solid #B3B3B3;
+}
+button:active {
+  color: #5087EC;
+}
+.grafic_img {
+  border: 2px solid #C9D6E1;
+}
+
+
+.daily {
+  height: 2em;
+  width: 16em;
+  font-weight: bold;
+  border-bottom-right-radius: 4px;
+  background-color: #EEF3F8;
+  /* border: 0.1em solid #C9D6E1; */
+  font-size: 1em;
+  border-bottom: 0.1em solid #C9D6E1;
+  border-right: 0.1em solid #C9D6E1;
+
+}
+option:active {
+  color: blue;
+}
+/* section 2 */
+h2 {
+padding-bottom: 0.4em;
+  margin-bottom: 0;
+}
+.boxes {
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 4.5em;
+
+}
+.box, .box1, .box2 {
+  border: 1px solid grey;
+  width: 400px;
+  padding: 0 5px;
+  text-align: center;
+  border: 0.1em solid #C9D6E1;
+  height: 4em;
+}
+.box1 {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.numbers {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+.text {
+  margin-bottom: 0.1em;
+  margin-top: 0.5em;
+  color: #666666;
+  font-weight: bold;
+}
+.green {
+  color: #3C9C2B;
+  font-size: 16px;
+  font-weight: bold;
+}
+.red {
+  color: #FF4D5D;
+  font-size: 19px;
+  font-weight: bold;
+}
+.arrow {
+  color:#3C9C2B;
+}
+.arow {
+  color: red;
+}
+/* section 3 */
+/* Geolocation */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.link {
+  padding-top: 1.8em;
+}
+.v1 {
+  padding-left: 22.5em;
+}
+.v2 {
+  padding-right: 15.7em;
+}
+.grafic-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0.1em solid #C9D6E1;
+}
+.pie{
+  padding: 1.5em 8em 1.5em 13em;
+}
+/* table1 */
+/* .tex {
+padding-top: 2em;
+} */
+.t1 {
+  width: 50%;
+  border-collapse: collapse;
+}
+.t2 {
+  width: 50%;
+  border-collapse: collapse;
+}
+.raw1 {
+  width: 10em;
+  height: 1.6em;
+  padding-left: 1.3em;
+}
+.foo {
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin: 0 0.5em 0 0.5em;
+}
+.blue {
+  background: #427EC3;
+}
+.green1 {
+  background: #3F9D4C;
+}
+.yellow {
+  background: #E3CE3C;
+}
+.orange {
+  background: #EC8E34;
+}
+.red1 {
+  background: #EE0029;
+}
+.purple {
+  background: #743297;
+}
+.violet {
+  background: #A93F9D;
+}
+/* table 2 */
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name1 {
+  background-color: #EDF2F7;
+  color: black;
+  font-weight: bold;
+  width: 30em;
+  height: 2em;
+}
+.name2 {
+  background-color: #EDF2F7;
+  color: black;
+  font-weight: bold;
+  width: 10em;
+  height: 2em;
+}
+ .raw1 {
+   width: 10em;
+   height: 2em;
+   padding-left: 1.3em;
+}
+/* Video/Post Views */
+.t3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-collapse: collapse;
+}
+.t4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-collapse: collapse;
+}
+.link1 {
+  padding-top: 1.6em;
+}
+.tab1 {
+  width: 50%;
+  padding-right: 1em;
+}
+.tab2 {
+  width: 50%;
+  padding-left: 1em;
+}
+.row1 {
+  width: 30em;
+  height: 2em;
+  color: #666666;
+  padding-left: 1.3em;
+}
+.row2 {
+  width: 10em;
+  height: 2em;
+  color: #666666;
+  padding-left: 1.3em;
+}
+table, th, td  {
+   border: 0.1em solid #C9D6E1;
+}
+/* For mobile phones: */
