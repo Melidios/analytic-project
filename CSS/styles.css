@@ -169,10 +169,10 @@ height: 4.5em;
   padding-top: 1.8em;
 }
 .v1 {
-  padding-left: 22.5em;
+  padding-left: 24.2em;
 }
 .v2 {
-  padding-right: 15.7em;
+  padding-right: 20.8em;
 }
 .grafic-table {
   display: flex;
@@ -260,6 +260,11 @@ padding-top: 2em;
   flex-direction: row;
   justify-content: flex-start;
   border-collapse: collapse;
+}
+.name-v {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 1.3em;
 }
 .t4 {
   display: flex;
